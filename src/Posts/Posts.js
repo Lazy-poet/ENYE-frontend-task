@@ -19,7 +19,7 @@ class Posts extends Component {
 componentDidMount(){
   const fetchingProfiles = async ()=>{
     this.setState({loading: true});
-  const resp = await axios.get('https://api.enye.tech/v1/challenge/records');
+  const resp = await axios.get('http://api.enye.tech/v1/challenge/records');
   const posts = resp.data.records.profiles;
   // const lastProfileIndex = this.state.currentPage * this.state.profilesPerPage;
   //   const firstProfileIndex = lastProfileIndex - this.state.profilesPerPage;
