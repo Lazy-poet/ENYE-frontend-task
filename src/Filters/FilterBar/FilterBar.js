@@ -29,7 +29,7 @@ class FilterBar extends Component {
         <DropdownToggle caret className={classes.Dropdown}>
           Filters
       </DropdownToggle>
-        <DropdownMenu>
+        <DropdownMenu className={classes.Menu}>
           <DropdownItem header>By Gender</DropdownItem>
           <DropdownItem value="male" onClick={this.handleClick}>Male</DropdownItem>
           <DropdownItem value="female" onClick={this.handleClick}>Female</DropdownItem>

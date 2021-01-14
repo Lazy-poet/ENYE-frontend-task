@@ -9,7 +9,9 @@
   outline: none;
   border: none
 }
-
+.FilterBar .Menu{
+  font-size: .8rem 
+}
 @media(max-width: 600px) {
   .FilterBar .Button {
     width: 75px;
