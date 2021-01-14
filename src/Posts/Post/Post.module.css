@@ -1,56 +1,53 @@
-
-.List{
- /* border: 1px solid #333; */
- display: block;
- border-radius: 20px;
-  width: 300px;
-  padding: 0 0 5px !important; 
+.List {
+  display: block;
+  border-radius: 20px;
+  width: 320px;
+  padding: 0 0 5px !important;
   box-sizing: border-box;
   font-size: .8rem;
   background-color: #fdfdff
-/* margin-left: 50%;
-  transform: translateX(-50%) */
 }
-.List .Header{
+
+.List .Header {
   background-color: #3937c3 !important;
   padding: 20px 0;
   color: #fdfdff;
   border-radius: 20px 20px 10px 10px;
 }
-.List img{
+
+.List img {
   height: 75px;
   margin: auto;
 }
-.List .Name{
-font-weight: bold;
-text-align: center
+
+.List .Name {
+  font-weight: bold;
+  text-align: center
 }
-.List ul{
+
+.List ul {
   background-color: #fdfdff;
   border-radius: 15px;
-   margin: 15px
- 
+  margin: 15px
 }
-.List li{
+
+.List li {
   list-style: none;
- text-align: left;
- display: flex;
- justify-content: space-between;
+  text-align: left;
+  display: flex;
+  justify-content: space-between;
   padding: 8px 10px;
- background-color: #e8edf9;
- /* border-bottom: 1px solid #aaa */
-  border-radius: 10px; 
+  background-color: #e8edf9;
+  border-radius: 10px;
   margin-bottom: 5px;
 }
-.List li:last-child{
+
+.List li:last-child {
   border-bottom: none
 }
-.List li .Key{
-margin-right: 20px;
-font-weight: bold;
-color: inherit
- }
-.List .Value{
-   color: #fafafc !important
- }
 
+.List li .Key {
+  margin-right: 20px;
+  font-weight: bold;
+  color: inherit
+}

@@ -1,8 +1,8 @@
 .FilterBar .Button {
-margin-left: 10px !important
+  margin-left: 10px !important
 }
 
-.FilterBar .Dropdown{
+.FilterBar .Dropdown {
   width: 120px !important;
   background-color: #fff;
   color: #333;
@@ -10,12 +10,13 @@ margin-left: 10px !important
   border: none
 }
 
-@media(max-width: 600px){
-  .FilterBar .Button{
+@media(max-width: 600px) {
+  .FilterBar .Button {
     width: 75px;
     font-size: .8rem
   }
-  .FilterBar .Dropdown{
+
+  .FilterBar .Dropdown {
     width: 75px !important;
     font-size: .8rem
   }
