@@ -1,0 +1,28 @@
+.Filter{
+  display: flex;
+ justify-content: space-between;
+ align-items: center;
+  margin-bottom: 20px;
+  height: 50px;
+}
+.Filter .Search{
+  width: 200px;
+  margin-left: 30px;
+  outline: none;
+  border: none;
+
+}
+.Filter .Select{
+margin-right: 30px !important;
+}
+@media(max-width: 600px){
+
+  .Filter .Search{
+    width: 120px;
+    margin-left: 15px;
+    font-size: .8rem
+  }
+  .Filter .Select{
+    margin-right: 15px !important
+  }
+}
